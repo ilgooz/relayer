@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	clientTypes "github.com/cosmos/cosmos-sdk/x/ibc/02-client/types"
-	"github.com/ovrclk/relayer/relayer"
+	"github.com/ilgooz/relayer/relayer"
 	"github.com/spf13/cobra"
 )
 

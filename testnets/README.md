@@ -61,7 +61,7 @@ echo 'export GOPATH=$HOME/go' >> ~/.profile
 echo 'export GOBIN=$GOPATH/bin' >> ~/.profile
 echo 'export PATH=$PATH:/usr/local/go/bin:$GOBIN' >> ~/.profile
 echo "export GAIA=\$GOPATH/src/github.com/cosmos/gaia" >> ~/.profile
-echo "export RELAYER=\$GOPATH/src/github.com/ovrclk/relayer" >> ~/.profile
+echo "export RELAYER=\$GOPATH/src/github.com/ilgooz/relayer" >> ~/.profile
 source ~/.profile
 
 # Set these variables to different values that are specific to your chain
@@ -75,7 +75,7 @@ export ACCOUNT_PREFIX=cosmos
 
 # Start by downloading and installing both gaia and the relayer
 mkdir -p $(dirname $GAIA) && git clone https://github.com/cosmos/gaia $GAIA && cd $GAIA && git checkout $GAIASHA && make install
-mkdir -p $(dirname $RELAYER) && git clone https://github.com/ovrclk/relayer $RELAYER && cd $RELAYER && make install
+mkdir -p $(dirname $RELAYER) && git clone https://github.com/ilgooz/relayer $RELAYER && cd $RELAYER && make install
 
 # Now its time to configure both the relayer and gaia, start with the relayer
 cd
@@ -118,7 +118,7 @@ Once you have your server (you could deploy the relayer on a different machine a
 
 ```bash
 # install the relayer
-export RELAYER=$GOPATH/src/github.com/ovrclk/relayer
+export RELAYER=$GOPATH/src/github.com/ilgooz/relayer
 mkdir -p $(dirname $RELAYER) && git clone git@github.com:ovrclk/relayer $RELAYER && cd $RELAYER
 make install
 

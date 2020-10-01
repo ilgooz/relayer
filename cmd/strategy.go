@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/ovrclk/relayer/relayer"
+	"github.com/ilgooz/relayer/relayer"
 	"github.com/spf13/cobra"
 )
 

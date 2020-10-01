@@ -2,7 +2,7 @@
 
 ![GOZ](./docs/images/github-repo-banner.png)
 
-![Relayer Build](https://github.com/ovrclk/relayer/workflows/Build%20then%20run%20CI%20Chains/badge.svg)
+![Relayer Build](https://github.com/ilgooz/relayer/workflows/Build%20then%20run%20CI%20Chains/badge.svg)
 
 The Cosmos IBC `relayer` package contains a basic relayer implementation that is
 meant for users wishing to relay packets/data between sets of IBC enabled chains.
@@ -29,7 +29,7 @@ If you would like to join the relayer testnet, please [check out the instruction
 
 | chain | tests | supported ports |
 |-------|--------|----------------|
-| [`gaia`](https://github.com/cosmos/gaia) | ![gaia](https://github.com/ovrclk/relayer/workflows/TESTING%20-%20gaia%20to%20gaia%20integration/badge.svg) | `transfer` |
+| [`gaia`](https://github.com/cosmos/gaia) | ![gaia](https://github.com/ilgooz/relayer/workflows/TESTING%20-%20gaia%20to%20gaia%20integration/badge.svg) | `transfer` |
 
 ## Demoing the Relayer
 

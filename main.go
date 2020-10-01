@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/ovrclk/relayer/cmd"
+import "github.com/ilgooz/relayer/cmd"
 
 func main() {
 	cmd.Execute()

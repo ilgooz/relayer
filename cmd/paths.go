@@ -9,7 +9,7 @@ import (
 	clientTypes "github.com/cosmos/cosmos-sdk/x/ibc/02-client/types"
 	connTypes "github.com/cosmos/cosmos-sdk/x/ibc/03-connection/types"
 	chanTypes "github.com/cosmos/cosmos-sdk/x/ibc/04-channel/types"
-	"github.com/ovrclk/relayer/relayer"
+	"github.com/ilgooz/relayer/relayer"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"
 )
